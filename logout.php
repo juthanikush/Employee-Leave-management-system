@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION['ROLE']);
+unset($_SESSION['USER_ID']);
+unset($_SESSION['USER_NAME']);
+?>
+    <script>
+        window.location.href='login.php';
+    </script>
+<?php
+?>
